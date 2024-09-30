@@ -1,0 +1,2 @@
+[console_scripts]
+deidb = deidb.cli:main

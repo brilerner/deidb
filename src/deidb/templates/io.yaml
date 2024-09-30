@@ -1,0 +1,11 @@
+# exclusion/inclusion of column names
+
+# enter excluded as a list
+excluded:
+  - info
+
+# enter included as dict with a nest dict for variable metadata
+included:
+  id:
+    function: random_number_substitution
+

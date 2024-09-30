@@ -1,0 +1,12 @@
+setup.py
+src/deidb/__init__.py
+src/deidb/cli.py
+src/deidb/core.py
+src/deidb/type_functions.py
+src/deidb/utils.py
+src/deidb.egg-info/PKG-INFO
+src/deidb.egg-info/SOURCES.txt
+src/deidb.egg-info/dependency_links.txt
+src/deidb.egg-info/entry_points.txt
+src/deidb.egg-info/top_level.txt
+tests/test_functions.py
