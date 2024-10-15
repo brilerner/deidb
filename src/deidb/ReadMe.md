@@ -24,4 +24,12 @@ This program is designed to be run from terminal by calling:
 - reapparearing issue
 
 # POTENTIAL ISSUES 
+
+Leading 0s don't display well in OpenOffice
+
  DEPRECATION: Legacy editable install of deidb==0.1 from file:///Users/brianlerner/Library/CloudStorage/OneDrive-DukeUniversity/projects/code/Duke/Dunn%20Code/deidentify (setup.py develop) is deprecated. pip 25.0 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+
+ # Plan for time-shifts
+ Link based off of patient_id.
+ Add functionality to take kwargs
+ Create a pat_id_time-shifts.json file

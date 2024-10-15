@@ -43,7 +43,8 @@ def deidentify_file(filepath, active_dir):
             else:
                 n_added += 1
                 type_func = getattr(type_functions, config["included"][col]["function"])
-                output = type_func(val)
+                kwargs = config["included"][col].get("kwargs", {})
+                output = type_func(val, **kwargs)
                 # check to see if the generated output is already in the key_dict
                 while output in key_dict[col].values():
                     output = type_func(val)
